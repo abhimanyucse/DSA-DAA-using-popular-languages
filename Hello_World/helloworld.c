@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include <conio.h>
 int main()
 {
-   // printf() displays the string inside quotation
+   clrscr();
    printf("Hello, World!");
    return 0;
+   getch();
 }
