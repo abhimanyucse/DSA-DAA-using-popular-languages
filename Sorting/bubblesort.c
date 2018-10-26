@@ -1,4 +1,5 @@
 #include <stdio.h> 
+#include <conio.h>
   
 void swap(int *xp, int *yp) 
 { 
@@ -31,10 +32,13 @@ void printArray(int arr[], int size)
 // Driver program to test above functions 
 int main() 
 { 
+    
     int arr[] = {64, 34, 25, 12, 22, 11, 90}; 
     int n = sizeof(arr)/sizeof(arr[0]); 
+    clrscr();
     bubbleSort(arr, n); 
     printf("Sorted array: \n"); 
     printArray(arr, n); 
     return 0; 
+  getch();
 } 
