@@ -1,5 +1,6 @@
 #include<stdlib.h> 
-#include<stdio.h> 
+#include<stdio.h>
+#include<conio.h>
   
 // Merges two subarrays of arr[]. 
 // First subarray is arr[l..m] 
@@ -90,6 +91,7 @@ int main()
 { 
     int arr[] = {12, 11, 13, 5, 6, 7}; 
     int arr_size = sizeof(arr)/sizeof(arr[0]); 
+  clrscr();
   
     printf("Given array is \n"); 
     printArray(arr, arr_size); 
@@ -99,4 +101,5 @@ int main()
     printf("\nSorted array is \n"); 
     printArray(arr, arr_size); 
     return 0; 
+  getch();
 } 
